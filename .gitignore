@@ -9,7 +9,7 @@ __pycache__/
 .awareness/
 .venv/
 
-# Large ML artifacts are stored through DVC/Google Drive, not Git
+# Large ML artifacts are copied manually after cloning, not stored in Git
 src/bfmc_sign_detection/models/*.pt
 
 # Local editor and OS files

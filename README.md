@@ -41,10 +41,25 @@ Stereo depth is used whenever it is valid and time-compatible. If it is unavaila
 - Python `ultralytics` with PyTorch.
 - RGB camera and RGB-registered stereo depth.
 
-The supplied model is approximately 122 MB:
+The supplied model is approximately 122 MB. It is intentionally excluded
+from Git and must be copied manually after cloning:
 
 ```
 src/bfmc_sign_detection/models/bfmc_signs_best.pt
+```
+
+After cloning, copy the model into that path from your secure storage:
+
+```bash
+cp /path/to/bfmc_signs_best.pt \\
+  src/bfmc_sign_detection/models/bfmc_signs_best.pt
+```
+
+Alternatively, download it from your private storage using your own
+authenticated transfer method. Confirm it is present before launching:
+
+```bash
+ls -lh src/bfmc_sign_detection/models/bfmc_signs_best.pt
 ```
 
 ## Installation and build
