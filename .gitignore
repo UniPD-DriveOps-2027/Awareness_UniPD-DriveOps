@@ -1,0 +1,18 @@
+# ROS 2 / colcon build products
+build/
+install/
+log/
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.awareness/
+.venv/
+
+# Large ML artifacts are stored through DVC/Google Drive, not Git
+src/bfmc_sign_detection/models/*.pt
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store

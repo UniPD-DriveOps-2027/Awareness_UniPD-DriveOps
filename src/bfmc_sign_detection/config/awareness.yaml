@@ -1,0 +1,14 @@
+road_sign_detector:
+  ros__parameters:
+    image_topic: /oak/rgb/image_raw
+    camera_info_topic: /oak/rgb/camera_info
+    depth_topic: /oak/stereo/image_raw
+    depth_camera_info_topic: /oak/stereo/camera_info
+    detection_topic: /traffic/detection
+    confidence: 0.50
+    inference_size: 1024
+    sign_height_m: 0.30
+    focal_length_px: 700.0
+    depth_timeout_s: 0.15
+    depth_scale: 0.001
+    publish_debug_image: false
