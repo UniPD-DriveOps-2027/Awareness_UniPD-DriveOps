@@ -62,6 +62,16 @@ authenticated transfer method. Confirm it is present before launching:
 ls -lh src/bfmc_sign_detection/models/bfmc_signs_best.pt
 ```
 
+The model is stored in the project Google Drive folder:
+
+[Download the BFMC detection model from Google Drive](https://drive.google.com/drive/folders/1rMzkbeibWkSxDXQkSFQLhWduYDH1Hkfs)
+
+Download `bfmc_signs_best.pt` from that folder and place it at:
+
+```text
+src/bfmc_sign_detection/models/bfmc_signs_best.pt
+```
+
 ## Installation and build
 
 The virtual environment must use system site packages so it can import ROS Python modules:
